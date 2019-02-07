@@ -1,0 +1,4 @@
+<% @genres = Genre.all %>
+<% @genres.each do |sgenre| %>
+<%= link_to genre, genre_path(genre) %>
+<% end %>
